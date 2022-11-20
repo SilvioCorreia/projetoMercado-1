@@ -11,7 +11,7 @@ describe('Comprar Passagem', function() {
   let vars              // lista para guardar variaveis e informações
 
   // Antes de cada teste - Inicialização - Setup
-  beforeEach(async function() {
+  beforeEach(async function() { 
     // Instancia o objeto Selenium WebDriver para controlar o Chrome Driver
     driver = await new Builder().forBrowser('chrome').build()
     driver.manage().setTimeouts({implicit: 60000}) // define a espera
